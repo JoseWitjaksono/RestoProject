@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="def8d4ab90594adc9dbdca0afab13230" Name="Diagram1">
+        <EntityTypeShape EntityType="RestoDBModel.laporan" Width="1.5" PointX="3.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestoDBModel.LOOKUPRole" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestoDBModel.menu" Width="1.5" PointX="1.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestoDBModel.pelanggan" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestoDBModel.SYSUser" Width="1.5" PointX="4.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestoDBModel.SYSUserProfile" Width="1.5" PointX="6.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestoDBModel.SYSUserRole" Width="1.5" PointX="2.5" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="RestoDBModel.FK__laporan__id_menu__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="RestoDBModel.FK__laporan__id_pela__1FCDBCEB" ManuallyRouted="false" />
+        <AssociationConnector Association="RestoDBModel.FK__SYSUserRo__LOOKU__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="RestoDBModel.FK__SYSUserPr__SYSUs__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="RestoDBModel.FK__SYSUserRo__SYSUs__35BCFE0A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
